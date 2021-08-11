@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		0E286AF526C3A605001AA406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E286AF326C3A605001AA406 /* Main.storyboard */; };
 		0E286AF726C3A607001AA406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E286AF626C3A607001AA406 /* Assets.xcassets */; };
 		0E286AFA26C3A607001AA406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E286AF826C3A607001AA406 /* LaunchScreen.storyboard */; };
+		0E286B0226C3A916001AA406 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E286B0126C3A916001AA406 /* HomeViewController.swift */; };
 		69A82968E2899A738974F57C /* Pods_LastDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FABA4D48CC62CDDFA257CA6 /* Pods_LastDay.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		0E286AF626C3A607001AA406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E286AF926C3A607001AA406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E286AFB26C3A607001AA406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E286B0126C3A916001AA406 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1FABA4D48CC62CDDFA257CA6 /* Pods_LastDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LastDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF15615DC799FA1C29756A2 /* Pods-LastDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LastDay.release.xcconfig"; path = "Target Support Files/Pods-LastDay/Pods-LastDay.release.xcconfig"; sourceTree = "<group>"; };
 		626F6BD651AF63F45BF91380 /* Pods-LastDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LastDay.debug.xcconfig"; path = "Target Support Files/Pods-LastDay/Pods-LastDay.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				0E286AF626C3A607001AA406 /* Assets.xcassets */,
 				0E286AF826C3A607001AA406 /* LaunchScreen.storyboard */,
 				0E286AFB26C3A607001AA406 /* Info.plist */,
+				0E286B0126C3A916001AA406 /* HomeViewController.swift */,
 			);
 			path = LastDay;
 			sourceTree = "<group>";
@@ -88,7 +91,6 @@
 				626F6BD651AF63F45BF91380 /* Pods-LastDay.debug.xcconfig */,
 				3BF15615DC799FA1C29756A2 /* Pods-LastDay.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,6 +211,7 @@
 				0E286AF226C3A605001AA406 /* ViewController.swift in Sources */,
 				0E286AEE26C3A605001AA406 /* AppDelegate.swift in Sources */,
 				0E286AF026C3A605001AA406 /* SceneDelegate.swift in Sources */,
+				0E286B0226C3A916001AA406 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
