@@ -116,7 +116,7 @@ class HomeViewController: UIViewController {
     
     // MARK: - Greeting Messages
     greetingMessageLabel.snp.makeConstraints { make in
-      make.top.equalToSuperview().offset(80)
+      make.top.equalToSuperview().offset(70)
       make.leading.equalToSuperview().offset(20)
     }
     
