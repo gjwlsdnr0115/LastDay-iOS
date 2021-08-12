@@ -19,6 +19,17 @@ class SearchViewController: UIViewController {
     return imgView
   }()
   
+  lazy var reactingBGView: UIView = {
+    let view = UIView()
+    view.backgroundColor = UIColor.white
+    return view
+  }()
+  
+  lazy var cornerBGView: UIView = {
+    let view = UIView()
+    return view
+  }()
+  
   override var preferredStatusBarStyle: UIStatusBarStyle {
     return .lightContent
   }
@@ -37,16 +48,27 @@ class SearchViewController: UIViewController {
   
   func addViews() {
     view.addSubview(backgroundImgView)
+    view.addSubview(reactingBGView)
+    view.addSubview(cornerBGView)
   }
   
   
   func setAppearance() {
+    // MARK: - ReactingBGView
+    
+    reactingBGView.layer.cornerRadius = 15
+    
     
   }
   
   func setConstraints() {
     backgroundImgView.snp.makeConstraints { make in
       make.edges.equalToSuperview()
+    }
+    
+    reactingBGView.snp.makeConstraints { make in
+      make.top.equalToSuperview().offset(50)
+      make.bottom.leading.trailing.equalToSuperview()
     }
   }
   
