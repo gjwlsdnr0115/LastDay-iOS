@@ -57,6 +57,7 @@ class HomeViewController: UIViewController {
     button.setImage(UIImage(systemName: "magnifyingglass"), for: .normal)
     button.backgroundColor = UIColor.white
     button.tintColor = UIColor(displayP3Red: 175/255.0, green: 170/255.0, blue: 226/255.0, alpha: 1)
+    button.adjustsImageWhenHighlighted = false
     button.addTarget(self, action: #selector(goSearch), for: .touchUpInside)
     return button
   }()
