@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E038F3E26C6700500000E27 /* TimeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E038F3D26C6700500000E27 /* TimeDataModel.swift */; };
 		0E286AEE26C3A605001AA406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E286AED26C3A605001AA406 /* AppDelegate.swift */; };
 		0E286AF026C3A605001AA406 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E286AEF26C3A605001AA406 /* SceneDelegate.swift */; };
 		0E286AF226C3A605001AA406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E286AF126C3A605001AA406 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E038F3D26C6700500000E27 /* TimeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDataModel.swift; sourceTree = "<group>"; };
 		0E286AEA26C3A605001AA406 /* LastDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E286AED26C3A605001AA406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E286AEF26C3A605001AA406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0E038F3C26C66FE500000E27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E038F3D26C6700500000E27 /* TimeDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0E286AE126C3A605001AA406 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		0E286AEC26C3A605001AA406 /* LastDay */ = {
 			isa = PBXGroup;
 			children = (
+				0E038F3C26C66FE500000E27 /* Model */,
 				0E286B0626C3C8AA001AA406 /* Storyboard */,
 				0E286B0526C3C7B1001AA406 /* ViewController */,
 				0E286AED26C3A605001AA406 /* AppDelegate.swift */,
@@ -233,6 +244,7 @@
 			files = (
 				0E286B0426C3C7AB001AA406 /* SearchViewController.swift in Sources */,
 				0E286AF226C3A605001AA406 /* ViewController.swift in Sources */,
+				0E038F3E26C6700500000E27 /* TimeDataModel.swift in Sources */,
 				0E286AEE26C3A605001AA406 /* AppDelegate.swift in Sources */,
 				0E286AF026C3A605001AA406 /* SceneDelegate.swift in Sources */,
 				0E286B0226C3A916001AA406 /* HomeViewController.swift in Sources */,
